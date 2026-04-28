@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – StakeGrowLab</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">🌿</span>
+      <span class="logo-text">StakeGrow<strong>Lab</strong></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="plants.html" class="nav-link">Plants</a>
+      <a href="guides.html" class="nav-link">Guides</a>
+      <a href="blog.html" class="nav-link">Blog</a>
+      <a href="contact.html" class="nav-link active nav-cta">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero hero-short">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600&q=80" alt="Contact"/>
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="container hero-content">
+    <span class="hero-badge">📞 We're Here to Help</span>
+    <h1>Get in<br/><em>Touch.</em></h1>
+    <p>Have a question about your plants? Want to share a growing win? We'd love to hear from you.</p>
+    <div class="hero-btns">
+      <a href="#contact-form" class="btn btn-primary">Send a Message</a>
+      <a href="guides.html" class="btn btn-ghost">Browse Guides</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section" id="contact-form">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- FORM -->
+      <div class="contact-form-wrap">
+        <div class="section-header left-align">
+          <span class="label">Say Hello</span>
+          <h2>Send Us a Message</h2>
+          <p>Fill in the form and we'll get back to you within 48 hours.</p>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="Jane" required/>
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Doe" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="jane@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="topic">Topic</label>
+            <select id="topic">
+              <option value="">Select a topic…</option>
+              <option>Plant Identification</option>
+              <option>Care Advice</option>
+              <option>Beginner Questions</option>
+              <option>Blog / Guides</option>
+              <option>Partnership</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell us about your plant or question…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message 🌿</button>
+          <div class="form-success" id="formSuccess">
+            ✅ Thank you! We'll be in touch within 48 hours.
+          </div>
+        </form>
+      </div>
+
+      <!-- INFO SIDEBAR -->
+      <div class="contact-info">
+        <div class="info-card">
+          <span class="info-icon">📧</span>
+          <h4>Email Us</h4>
+          <p>hello@stakegrowlab.com</p>
+          <p>guides@stakegrowlab.com</p>
+        </div>
+        <div class="info-card">
+          <span class="info-icon">📍</span>
+          <h4>Based In</h4>
+          <p>Growing communities everywhere.<br/>Fully online & remote-friendly.</p>
+        </div>
+        <div class="info-card">
+          <span class="info-icon">🕐</span>
+          <h4>Response Time</h4>
+          <p>We reply within 24–48 hours,<br/>Monday through Friday.</p>
+        </div>
+        <div class="info-card">
+          <span class="info-icon">🌐</span>
+          <h4>Follow Along</h4>
+          <div class="social-links">
+            <a href="#" class="social-link">📸 Instagram</a>
+            <a href="#" class="social-link">📌 Pinterest</a>
+            <a href="#" class="social-link">▶️ YouTube</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section bg-cream">
+  <div class="container">
+    <div class="section-header">
+      <span class="label">FAQs</span>
+      <h2>Common Questions</h2>
+      <p>Quick answers to the things we're asked most often.</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h4>How often should I water my houseplants?</h4>
+        <p>It depends on the plant and conditions, but a good rule of thumb is to check the top inch of soil. If it's dry, water. If it's still damp, wait another day or two.</p>
+      </div>
+      <div class="faq-item">
+        <h4>What's the easiest plant for a complete beginner?</h4>
+        <p>We always recommend a Snake Plant or Golden Pothos. Both tolerate low light, inconsistent watering, and still look great.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Can I grow plants if I have very little sunlight?</h4>
+        <p>Absolutely. Many plants — ZZ plants, Peace Lilies, and Pothos — actually prefer indirect or low light, making them perfect for darker rooms.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Why are my plant's leaves turning yellow?</h4>
+        <p>Yellowing leaves are usually caused by overwatering, poor drainage, or a lack of nutrients. Check your watering schedule and ensure the pot has drainage holes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIPS STRIP -->
+<section class="tips-strip">
+  <div class="container">
+    <div class="tips-grid">
+      <div class="tip-item"><span class="tip-icon">💌</span><div><strong>Newsletter</strong><p>Subscribe for weekly growing tips and seasonal guides.</p></div></div>
+      <div class="tip-item"><span class="tip-icon">🌱</span><div><strong>Free Guides</strong><p>Our beginner guides are completely free — no signup needed.</p></div></div>
+      <div class="tip-item"><span class="tip-icon">🤝</span><div><strong>Partnerships</strong><p>Interested in collaborating? Drop us an email.</p></div></div>
+      <div class="tip-item"><span class="tip-icon">📸</span><div><strong>Share Your Plants</strong><p>Tag #StakeGrowLab on Instagram to be featured.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container cta-inner">
+    <div class="cta-text">
+      <h2>Explore our growing library.</h2>
+      <p>Guides, plant profiles, and tips — everything you need to grow with confidence.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="guides.html" class="btn btn-primary">View All Guides</a>
+      <a href="plants.html" class="btn btn-outline-white">Explore Plants</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo logo-light">
+        <span class="logo-icon">🌿</span>
+        <span class="logo-text">StakeGrow<strong>Lab</strong></span>
+      </a>
+      <p>Helping you grow better, anywhere — one plant at a time.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <a href="plants.html">Plants</a>
+      <a href="guides.html">Guides</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-links">
+      <h4>Topics</h4>
+      <a href="#">Indoor Plants</a>
+      <a href="#">Outdoor Gardening</a>
+      <a href="#">Herbs & Edibles</a>
+      <a href="#">Plant Care</a>
+    </div>
+    <div class="footer-links">
+      <h4>Connect</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+      <a href="#">YouTube</a>
+      <a href="#">Newsletter</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 StakeGrowLab. All rights reserved. Made with 🌱</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
